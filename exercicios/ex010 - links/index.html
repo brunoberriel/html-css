@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bb-favicon.ico" type="image/x-icon">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub.</a></p> <!--link abrindo em uma outra aba-->
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">canal gratuito no YouTube</a>.</p> <!--link abrindo na mesma aba-->
+    <h1>Criando Link Interno</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a>.</p> <!--opcional o uso do target="_self" qndo for abrir na mesma página-->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a>.</p>
+    <h1>Link para Downloads</h2>
+    <ul> <!--para adicionar múltiplos li = ul>li*(qntd li desejada)>a(ou outra aplicação ) -->
+        <li><a href="livro/10-Ligacoes_em_toda_parte.pdf" target="blank" download="10-Ligacoes_em_toda_parte.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!--download é opcional, não há modificação no google chrome -->
+        <li><a href="livro/10-Ligacoes_em_toda_parte.zip" target="blank" download="10-Ligacoes_em_toda_parte.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
